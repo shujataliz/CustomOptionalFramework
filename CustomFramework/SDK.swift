@@ -34,6 +34,10 @@ public struct SDK {
     }
     
     public static func testSDKS() {
+<<<<<<< HEAD
+=======
+        print(#function)
+>>>>>>> 94e7fd9 (Initial Commit)
         #if canImport(PLCrashReporter)
         print("PLCrashReporter is available")
         #endif
