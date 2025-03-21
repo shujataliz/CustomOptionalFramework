@@ -7,17 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
 		5009CF032D8E08C000177439 /* CrashReporter in Frameworks */ = {isa = PBXBuildFile; productRef = 5009CF022D8E08C000177439 /* CrashReporter */; };
 		5009CF062D8E092300177439 /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5009CF052D8E092300177439 /* CocoaLumberjack */; };
 		5009CF212D8E0A3500177439 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FFE0312BC92FC1003372F6 /* CustomFramework.framework */; };
 		5009CF222D8E0A3500177439 /* CustomFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50FFE0312BC92FC1003372F6 /* CustomFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-=======
-		5009CF212D8E0A3500177439 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FFE0312BC92FC1003372F6 /* CustomFramework.framework */; };
-		5009CF222D8E0A3500177439 /* CustomFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50FFE0312BC92FC1003372F6 /* CustomFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5009CF272D8E0EC800177439 /* CrashReporter in Frameworks */ = {isa = PBXBuildFile; productRef = 5009CF262D8E0EC800177439 /* CrashReporter */; };
-		5009CF292D8E0EC800177439 /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5009CF282D8E0EC800177439 /* CocoaLumberjack */; };
->>>>>>> 94e7fd9 (Initial Commit)
 		50FFE0352BC92FC1003372F6 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FFE0342BC92FC1003372F6 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		50FFE03C2BC92FD7003372F6 /* SDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50FFE03B2BC92FD7003372F6 /* SDK.swift */; };
 /* End PBXBuildFile section */
@@ -72,13 +65,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				5009CF212D8E0A3500177439 /* CustomFramework.framework in Frameworks */,
-=======
 				5009CF292D8E0EC800177439 /* CocoaLumberjack in Frameworks */,
 				5009CF212D8E0A3500177439 /* CustomFramework.framework in Frameworks */,
 				5009CF272D8E0EC800177439 /* CrashReporter in Frameworks */,
->>>>>>> 94e7fd9 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,11 +75,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< HEAD
-				5009CF062D8E092300177439 /* CocoaLumberjack in Frameworks */,
-				5009CF032D8E08C000177439 /* CrashReporter in Frameworks */,
-=======
->>>>>>> 94e7fd9 (Initial Commit)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,11 +149,8 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
-<<<<<<< HEAD
-=======
 				5009CF262D8E0EC800177439 /* CrashReporter */,
 				5009CF282D8E0EC800177439 /* CocoaLumberjack */,
->>>>>>> 94e7fd9 (Initial Commit)
 			);
 			productName = SampleApp;
 			productReference = 5009CF0B2D8E0A2500177439 /* SampleApp.app */;
@@ -579,20 +560,12 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-<<<<<<< HEAD
-		5009CF022D8E08C000177439 /* CrashReporter */ = {
-=======
 		5009CF262D8E0EC800177439 /* CrashReporter */ = {
->>>>>>> 94e7fd9 (Initial Commit)
 			isa = XCSwiftPackageProductDependency;
 			package = 5009CF012D8E08C000177439 /* XCRemoteSwiftPackageReference "plcrashreporter" */;
 			productName = CrashReporter;
 		};
-<<<<<<< HEAD
-		5009CF052D8E092300177439 /* CocoaLumberjack */ = {
-=======
 		5009CF282D8E0EC800177439 /* CocoaLumberjack */ = {
->>>>>>> 94e7fd9 (Initial Commit)
 			isa = XCSwiftPackageProductDependency;
 			package = 5009CF042D8E092300177439 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
 			productName = CocoaLumberjack;
