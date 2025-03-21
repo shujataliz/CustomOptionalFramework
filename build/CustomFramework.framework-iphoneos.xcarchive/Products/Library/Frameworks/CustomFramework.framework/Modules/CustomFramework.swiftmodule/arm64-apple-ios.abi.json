@@ -1,0 +1,98 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDK",
+        "printedName": "SDK",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(apiKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework3SDKV9configure6apiKeyySS_tFZ",
+            "mangledName": "$s15CustomFramework3SDKV9configure6apiKeyySS_tFZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doSomeWork",
+            "printedName": "doSomeWork()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFramework3SDKV10doSomeWorkyyFZ",
+            "mangledName": "$s15CustomFramework3SDKV10doSomeWorkyyFZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15CustomFramework3SDKV",
+        "mangledName": "$s15CustomFramework3SDKV",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shujatali\/Documents\/Xcode\/CustomFramework\/CustomFramework\/SDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 165,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shujatali\/Documents\/Xcode\/CustomFramework\/CustomFramework\/SDK.swift",
+      "kind": "Array",
+      "offset": 209,
+      "length": 31,
+      "value": "[\"privateKey123\"]"
+    }
+  ]
+}
