@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5009CF032D8E08C000177439 /* CrashReporter in Frameworks */ = {isa = PBXBuildFile; productRef = 5009CF022D8E08C000177439 /* CrashReporter */; };
-		5009CF062D8E092300177439 /* CocoaLumberjack in Frameworks */ = {isa = PBXBuildFile; productRef = 5009CF052D8E092300177439 /* CocoaLumberjack */; };
 		5009CF212D8E0A3500177439 /* CustomFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50FFE0312BC92FC1003372F6 /* CustomFramework.framework */; };
 		5009CF222D8E0A3500177439 /* CustomFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 50FFE0312BC92FC1003372F6 /* CustomFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		50FFE0352BC92FC1003372F6 /* CustomFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 50FFE0342BC92FC1003372F6 /* CustomFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -65,9 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5009CF292D8E0EC800177439 /* CocoaLumberjack in Frameworks */,
 				5009CF212D8E0A3500177439 /* CustomFramework.framework in Frameworks */,
-				5009CF272D8E0EC800177439 /* CrashReporter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +145,6 @@
 			);
 			name = SampleApp;
 			packageProductDependencies = (
-				5009CF262D8E0EC800177439 /* CrashReporter */,
-				5009CF282D8E0EC800177439 /* CocoaLumberjack */,
 			);
 			productName = SampleApp;
 			productReference = 5009CF0B2D8E0A2500177439 /* SampleApp.app */;
@@ -558,19 +552,6 @@
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		5009CF262D8E0EC800177439 /* CrashReporter */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5009CF012D8E08C000177439 /* XCRemoteSwiftPackageReference "plcrashreporter" */;
-			productName = CrashReporter;
-		};
-		5009CF282D8E0EC800177439 /* CocoaLumberjack */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 5009CF042D8E092300177439 /* XCRemoteSwiftPackageReference "CocoaLumberjack" */;
-			productName = CocoaLumberjack;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 50FFE0282BC92FC1003372F6 /* Project object */;
 }

@@ -35,12 +35,19 @@ public struct SDK {
     
     public static func testSDKS() {
         print(#function)
-        #if canImport(PLCrashReporter)
+        #if canImport(CrashReporter)
         print("PLCrashReporter is available")
         #endif
 
         #if canImport(CocoaLumberjack)
         print("CocoaLumberjack is available")
         #endif
+        
+        
+        let available = NSClassFromString("PLCrashReporter") != nil
+        print("PLCrashReporter is \(available)")
+
+        let available2 = NSClassFromString("DDLog") != nil
+        print("CocoaLumberjack is \(available2)")
     }
 }
